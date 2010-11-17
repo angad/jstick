@@ -1,0 +1,38 @@
+<html>
+<head>
+<style>
+#man, #smiley{
+font-size:200px;
+font-family:sans;
+}
+</style>
+
+<script>
+var j=0;
+function animate()
+{
+	var stick = new Array();
+	stick[0] = "|\\";
+	stick[1] = "/|";
+	document.getElementById("smiley").innerHTML = stick[j];
+	j=j+1;
+	if(j==2) j=0;
+	setTimeout("animate()", 500);
+}
+</script>
+
+</head>
+
+<body onLoad = "animate()">
+<center>
+<div id = "man">
+\o/<br/>
+|<br/>
+</div>
+<div id = "smiley">
+</div>
+</center>
+
+</body>
+
+</html>

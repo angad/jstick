@@ -1,0 +1,11 @@
+jstick : A stick man animation implemented using JavaScript.
+Current: Testing a simple animation using setTimeout() function.
+
+Idea : A stick man comic based on ascii characters animated using JavaScript and jQuery.
+
+To-Dos : Array of drawings. A simple API to supply the drawings and animate using function calls.
+
+Date 17th November. 
+During-Exams-Creative-Period project.
+
+Angad
